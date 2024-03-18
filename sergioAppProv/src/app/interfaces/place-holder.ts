@@ -13,3 +13,11 @@ export interface PlaceHolderP {
     horas: number,
     foto: string
 }
+
+export interface PlaceHolderA {
+    id: number,
+    usuario: string,
+    email: string,
+    edad: number,
+    foto: string
+}

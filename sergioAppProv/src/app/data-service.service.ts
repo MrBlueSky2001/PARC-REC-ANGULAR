@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 export class DataServiceService {
   private jsonData: any;
 
+
   constructor() { }
   setJsonData(data: any) {
     this.jsonData = data;
